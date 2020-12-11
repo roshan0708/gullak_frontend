@@ -1,11 +1,11 @@
 .header-nav.transparent {
 	 background: transparent !important;
-	 transition: all 0.5s ease-in;
+	 transition: all 0.3s ease;
 }
 
 .header-nav .navbar-toggler {
-	 border-color: #fff;
-	 transition: all 0.5s ease;
+	 border-color: #000;
+	 transition: all 0.3s ease;
 }
 
 .header-nav .nav-link {
@@ -16,60 +16,70 @@
 	 font-size: 16px;
 	 font-weight: 600;
 	 text-transform: capitalize;
-	 transition: all 0.5s ease;
+	 transition: all 0.3s ease;
 	 letter-spacing: 3px;
 	 padding: 10px 20px !important;
+	 transition: all 0.3s ease;
 }
 
 .header-nav.transparent .nav-link{
 	color: white !important;
+	transition: all 0.3s ease;
 }
 
 .header-nav.brand-name{
 	padding: 1.5rem 0;
+	transition: all 0.3s ease;
 }
  
 .header-nav.transparent .nav-link:hover, .header-nav.transparent .nav-link:focus {
 	 background-color: rgba(0,0,0,0.3);
-	 transition: all 0.3s ease-in;
+	 transition: all 0.3s ease;
 }
 
 .header-nav.transparent.sticky {
-	 background-color: rgba(21,21,21,.95) !important;
-	 transition: all 0.5s ease;
+	 background-color: rgba(255, 255, 255, 0.898) !important;
+	 transition: all 0.3s ease;
 }
 
 .header-nav.sticky a{
-	transition: all 0.5s ease-in;
-	padding-top:13px;
-	padding-bottom: 13px;
+	transition: all 0.3s ease;
+	padding-top:0px;
+	padding-bottom: 0px;
+}
+
+.header-nav.transparent.sticky  .nav-link{
+	color: black !important;
+	transition: all 0.3s ease;
 }
 
 .header-nav.transparent.sticky  .nav-link:hover,.header-nav.transparent.sticky  .nav-link:focus{
-	background-color: rgba(255,255,255,1);
-	color:black !important;
-	transition: all 0.3s ease-in;
+	background-color: rgb(82, 125, 255);
+	/* border:1px solid  rgb(20, 58, 172); */
+	color:rgb(255, 255, 255) !important;
+	transition: all 0.3s ease;
 }
 
 
-/*white navbar*/
+/* white navbar
 
 .header-nav.light{
 	background: white !important;
-	transition: all 0.5s ease-in;
+	transition: all 0.3s ease-in;
 }
 
 .header-nav.light .nav-link{
 	color: black !important;
+	transition: all 0.3s ease-in;
 }
 
 .header-nav.light.sticky {
 	 background-color: white !important;
-	 transition: all 0.5s ease;
+	 transition: all 0.3s ease;
 }
 
 .header-nav.light .nav-link:hover, .header-nav.light .nav-link:focus {
 	 background-color: rgba(0,0,0,0.9) !important;
 	 color: white !important;
 	 transition: all 0.3s ease-in;
-}
+} */
