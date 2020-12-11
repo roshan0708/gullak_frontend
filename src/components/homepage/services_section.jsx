@@ -3,11 +3,13 @@ import { Row, Col } from 'react-bootstrap';
 import Img1 from "../../assets/img/dollar.png";
 import Img2 from "../../assets/img/maths.png";
 import Img3 from "../../assets/img/wallet.png";
+import Fade from "react-reveal/Fade";
 
 const Services = () => {
     return (
       <>
         <div className="main-div section-services" id="services">
+        <Fade right big cascade>
           <Row className="justify-content-center text-center">
             <Col lg={8} md={10}>
               <div className="header-section">
@@ -75,6 +77,7 @@ const Services = () => {
               </div>
             </Col>
           </Row>
+          </Fade>
         </div>
       </>
     );

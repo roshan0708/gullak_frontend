@@ -1,0 +1,53 @@
+.contact-div {
+	 background: url("../../assets/img/background/bg-2.jpg");
+	 background-attachment: fixed;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 width: 100%;
+	 height: max-content;
+	 display: flex;
+	 justify-content: center;
+}
+ .contact-div .head {
+	 height: 100%;
+	 display: flex;
+}
+ .contact-div .head .contact {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 color: black;
+}
+
+.contact-div .head .heading{
+    margin-bottom: 40px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+ .contact-div .head .contact p {
+	 width: 70%;
+	 text-align: center;
+}
+ .contact-div .head .contact .button {
+	 color: rgb(82, 125, 255);
+	 border-color: rgb(82, 125, 255);
+	 transition: all 0.5s ease;
+}
+ .contact-div .head .contact .button:hover, .contact-div .head .contact .button:focus, .contact-div .head .contact .button:active {
+	 outline: none !important;
+	 box-shadow: none !important;
+	 background-color: rgb(48, 100, 255) !important;
+	 color: #fff !important;
+	 border-color: rgb(48, 100, 255)!important;
+	 transition: all 0.5s ease;
+}
+ .contact-div .footer {
+	 position: relative;
+	 font-size: 12px;
+     bottom: -50px;
+     font-weight: 700;
+	 color: #2d2d2d5e;
+}
+ 

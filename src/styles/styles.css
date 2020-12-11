@@ -18,7 +18,8 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgb(48, 100, 255);
+  transition:all 0.3s ease;
 }
 
 * {
@@ -184,3 +185,4 @@ p {
 @import "./components/homepage-cover.css";
 @import "./components/homepage-about.css";
 @import "./components/services.css";
+@import "./components/homepage-footer.css";
