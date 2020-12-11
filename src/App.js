@@ -1,11 +1,14 @@
-import './App.css';
+import React from 'react';
+import NavbarComponent from './components/common/navbar';
+import Cover from './components/homepage/cover';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <>
+      <NavbarComponent variant="transparent"/>
+      <Cover/>
+    </>
   );
 }
 
-export default App;
+export default App
