@@ -1,0 +1,21 @@
+#profile-content {
+     background: url("../../assets/img/background/bg-3.png");
+     height: 100vh;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+}
+
+ #profile-content .inner-section .text {
+	 display: flex;
+	 justify-content: center;
+}
+ 
+#profile-content.main-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  padding: 120px 150px;
+}

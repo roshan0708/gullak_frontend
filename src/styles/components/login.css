@@ -1,0 +1,91 @@
+#login .MuiIconButton-root{
+    padding-right: 0;
+}
+
+#login {
+    max-width: 350px !important;
+}
+
+.user_card {
+	height: fit-content;
+	width: 350px;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: #fff;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+.brand_logo_container {
+	position: absolute;
+	height: 170px;
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #fff;
+	padding: 10px;
+	text-align: center;
+}
+.brand_logo {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+.form_container {
+	margin-top: 100px;
+}
+.login_btn {
+	width: 100%;
+	background: rgb(82, 125, 255) !important;
+	color: white !important;
+}
+.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.login_container {
+	padding: 0 2rem;
+	margin-top: 40px !important;
+}
+.input-group-text {
+	background: rgb(82, 125, 255) !important;
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	background-color: rgb(82, 125, 255) !important;
+}
+
+#login-button, #register-button{
+	background-color: transparent !important;
+	font-family: 'Lato', sans-serif !important;
+	border:none !important;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px !important;
+    font-weight: 600 !important; 
+    text-transform: capitalize !important;
+    transition: all 0.3s ease !important;
+	letter-spacing: 3px;
+	padding: 0 !important;
+}
+
+#login-button:focus,#login-button:active,#login-button:hover,#register-button:hover,#register-button:focus,#register-button:active{
+	outline: 0 !important;
+	border:0 !important;
+	box-shadow: none !important;
+}

@@ -1,11 +1,9 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import Logo from "../../assets/img/piggy-bank.png";
-import {Fade} from "react-reveal";
-import LoginModal from "../login";
-import RegisterModal from "../register";
+import { Fade } from "react-reveal";
 
-const NavbarComponent = ({ variant }) => {
+const NavbarComponent2 = () => {
   const changeBackground = () => {
     let header = document.getElementsByClassName("header-nav")[0];
     if (window.scrollY < 100) {
@@ -20,7 +18,7 @@ const NavbarComponent = ({ variant }) => {
   return (
     <>
       <Navbar
-        className={`header-nav ${variant}`}
+        className={`header-nav light`}
         fixed="top"
         collapseOnSelect
         expand="lg"
@@ -43,12 +41,6 @@ const NavbarComponent = ({ variant }) => {
               <Nav.Link className="px-4" href="/">
                 Home
               </Nav.Link>
-              <Nav.Link className="px-4">
-                <LoginModal/>
-              </Nav.Link>
-              <Nav.Link className="px-4">
-                <RegisterModal/>
-              </Nav.Link>
               <Nav.Link className="px-4" href="/profile">
                 Profile
               </Nav.Link>
@@ -59,4 +51,4 @@ const NavbarComponent = ({ variant }) => {
     </>
   );
 };
-export default NavbarComponent;
+export default NavbarComponent2;

@@ -181,8 +181,20 @@ p {
   padding-top: 20px;
 }
 
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+a{
+  cursor: pointer;
+}
+
 @import "./components/navbar.css";
 @import "./components/homepage-cover.css";
 @import "./components/homepage-about.css";
 @import "./components/services.css";
 @import "./components/homepage-footer.css";
+@import "./components/login.css";
+@import "./components/profile-content.css";
+@import "./components/cards.css";

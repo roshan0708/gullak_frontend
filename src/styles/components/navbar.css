@@ -48,12 +48,12 @@
 	padding-bottom: 0px;
 }
 
-.header-nav.transparent.sticky  .nav-link{
+.header-nav.transparent.sticky  .nav-link,.header-nav.transparent.sticky .nav-link #login-button,.header-nav.transparent.sticky .nav-link #register-button{
 	color: black !important;
 	transition: all 0.3s ease;
 }
 
-.header-nav.transparent.sticky  .nav-link:hover,.header-nav.transparent.sticky  .nav-link:focus{
+.header-nav.transparent.sticky  .nav-link:hover,.header-nav.transparent.sticky  .nav-link:focus,.header-nav.transparent.sticky .nav-link #login-button:focus,.header-nav.transparent.sticky .nav-link #login-button:hover,.header-nav.transparent.sticky .nav-link #register-button:focus,.header-nav.transparent.sticky .nav-link #register-button:hover{
 	background-color: rgb(82, 125, 255);
 	/* border:1px solid  rgb(20, 58, 172); */
 	color:rgb(255, 255, 255) !important;
@@ -61,7 +61,7 @@
 }
 
 
-/* white navbar
+white navbar
 
 .header-nav.light{
 	background: white !important;
@@ -79,7 +79,7 @@
 }
 
 .header-nav.light .nav-link:hover, .header-nav.light .nav-link:focus {
-	 background-color: rgba(0,0,0,0.9) !important;
+	 background-color: rgba(0,0,0,0.6) !important;
 	 color: white !important;
 	 transition: all 0.3s ease-in;
-} */
+}

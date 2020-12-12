@@ -1,18 +1,20 @@
 import React from 'react';
-import NavbarComponent from './components/common/navbar';
-import About from './components/homepage/about';
-import Cover from './components/homepage/cover';
-import Services from './components/homepage/services_section';
-import Footer from './components/common/footer';
+import { Switch, Route } from 'react-router-dom';
+import Homepage from './pages/Homepage';
+import Profile from './pages/Profile';
 
 const App = () => {
   return (
     <>
-      <NavbarComponent variant="transparent"/>
-      <Cover/>
-      <About/>
-      <Services/>
-      <Footer/>
+      <Switch>
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/homepage" component={Homepage} />
+        <Route exact path="/profile" component={Profile} />
+        {/*
+        <Route exact path="/profile" component={Profile}/>
+        <Route exact path="/admin" component={Admin}/>
+        */}
+      </Switch>
     </>
   );
 }
