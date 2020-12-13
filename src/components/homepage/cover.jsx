@@ -11,8 +11,7 @@ const Cover = () => {
               <h1 className="head-div-first-text">
                 Welcome to <span style={{ fontWeight: 900 }}>Gullक</span>
               </h1>
-              <h1 className="head-div-second-text">Slogan goes here</h1>
-              <p className="head-div-third-text">Another sub text</p>
+              <h1 className="head-div-second-text">Your Perfect Saving Partner</h1>
             </section>
           </Fade>
         </div>
