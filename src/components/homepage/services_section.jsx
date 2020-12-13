@@ -30,7 +30,7 @@ const Services = () => {
               <div className="single-service">
                 <div className="part-1">
                   <img src={Img1} alt="Wallet Img" />
-                  <h3 className="title">Service 1</h3>
+                  <h3 className="title">Save by Amount</h3>
                 </div>
                 <div className="part-2">
                   <p className="description">
@@ -47,7 +47,7 @@ const Services = () => {
               <div className="single-service">
                 <div className="part-1">
                   <img src={Img2} alt="Dollar Img" />
-                  <h3 className="title">Service 2</h3>
+                  <h3 className="title">Save by Rate</h3>
                 </div>
                 <div className="part-2">
                   <p className="description">
@@ -64,7 +64,7 @@ const Services = () => {
               <div className="single-service">
                 <div className="part-1">
                   <img src={Img3} alt="Math Img" />
-                  <h3 className="title">Service 3</h3>
+                  <h3 className="title">E-Wallet</h3>
                 </div>
                 <div className="part-2">
                   <p className="description">
